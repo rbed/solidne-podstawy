@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 1px solid black;
+    display: flex;
+}
+
+
+.sidebar {
+    /* minHeight: 100vh; */
+    width: 30%;
+    border-left: 1px solid black;
+    overflow: hidden;
+}
+
+
+.mainarea {
+    width: 70%;
+    background-color: white;
+}
+
+
+.mathOperation {
+    margin-top: 5px;
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.item {
+    border: 1px solid white;
+    background-color: white;
+    line-height: 100px;
+    width: 15%;
+    font-size: 40px;
+}
+
+
+.sign {
+    padding: 0 20px 0 20px;
+    /* color: white; */
+    line-height: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 30px 80px;
+    margin-top: 30px;
+    font-size: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btnRefresh {
+    padding: 10px 30px;
+    margin-top: 0;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.mainTitle {
+    height: 100px;
+    font-size: 38px;
+}
+
+
+.sidebarTitle {
+    height: 100px;
+    font-size: 24px;
+}
+
+
+h2 {
+    line-height: 100px;
+}
+
+
+h3 {
+    line-height: 30px;
+    font-size: 24px;
+}
+
+
+
+.result input {
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.currentScore {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+.setupBar {
+    display: flex;
+    justify-content: center;
+}
+
+.choose {
+    margin-left: 10px;
+}
+
+.correctAns {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wrongAns {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
