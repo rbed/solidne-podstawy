@@ -32,9 +32,13 @@ class Multiplication extends Component {
         { name: "1 min", time: 1 },
       ],
       users: [
-        { name: "Kuba", _id: "5ee13e2f7aada45bed5df5ff" },
-        { name: "Kacper", _id: "5ee13e3f7aada45bed5df600" },
-        { name: "Tata", _id: "5ee91ef6a952537aaa2e1096" },
+        // { name: "Kuba", _id: "5ee13e2f7aada45bed5df5ff" },
+        // { name: "Kacper", _id: "5ee13e3f7aada45bed5df600" },
+        // { name: "Tata", _id: "5ee91ef6a952537aaa2e1096" },
+        { name: "Kuba", _id: "5ef38941a4c7f20557132143" },
+        { name: "Kacper", _id: "5ef3894ba4c7f20557132144" },
+        { name: "Tata", _id: "5ef3892aa4c7f20557132142" },
+        { name: "Mama", _id: "5ef38953a4c7f20557132145" },
       ],
       user: null,
     };
