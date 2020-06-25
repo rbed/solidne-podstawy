@@ -8,7 +8,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "cd server  && mongod --dbpath data/db/ --fork --logpath ./data/db_start.log",
     "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
     "stop": "cd server && mongo admin --eval 'db.shutdownServer()'  && killall mongod"
   },
